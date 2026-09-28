@@ -1,0 +1,14 @@
+package io.github.takusan23.akaridroid.ui.sheet.projectlist
+
+/** プロジェクト一覧画面のボトムシートの種類 */
+sealed interface ProjectListBottomSheetRequestData {
+
+    /** 新規作成 */
+    data object CreateNewProject : ProjectListBottomSheetRequestData
+
+    /** メニューを開く */
+    data class ProjectMenu(val name: String) : ProjectListBottomSheetRequestData
+
+    /** チュートリアル用リンク集 */
+    data object TutorialLink : ProjectListBottomSheetRequestData
+}

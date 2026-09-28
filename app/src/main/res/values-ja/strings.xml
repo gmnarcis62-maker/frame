@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">あかりどろいど</string>
+    <string name="setting_font_title">フォント設定</string>
+    <string name="setting_license_title">ライセンス</string>
+    <string name="setting_font_delete">フォントを削除</string>
+    <string name="setting_font_add">フォントを追加</string>
+    <string name="setting_about_message">わたしは動画編集アプリだよ。よろしくね！</string>
+    <string name="setting_about_open_github">GitHub を開く</string>
+    <string name="setting_about_library">動画編集ライブラリ</string>
+    <string name="setting_about_sushi">すし</string>
+    <string name="setting_font_description">自分が持っているフォント追加することで、動画編集で利用できるようになります。</string>
+    <string name="setting_about_title">このアプリについて</string>
+    <string name="setting_about_description">GitHub でソースコードを見るなど</string>
+    <string name="setting_license_description">ありがとうございます</string>
+    <string name="setting">設定</string>
+    <string name="video_edit_preview_menu">メニュー</string>
+    <string name="video_edit_floating_add_bar_add">追加</string>
+    <string name="video_edit_bottomsheet_menu_title">メニュー</string>
+    <string name="video_edit_bottomsheet_menu_hint">タイムラインへの素材追加はタイムラインの追加ボタンからできます。</string>
+    <string name="video_edit_bottomsheet_menu_edit_video_info_title">動画情報の編集</string>
+    <string name="video_edit_bottomsheet_menu_edit_video_info_description">動画の解像度（縦横サイズ）、動画の時間、10 ビット HDR を有効にするかを設定できます。</string>
+    <string name="video_edit_bottomsheet_menu_encode_video_title">動画を保存する</string>
+    <string name="video_edit_bottomsheet_menu_encode_video_description">保存（書き出し、エンコード）をします。</string>
+    <string name="video_edit_bottomsheet_menu_open_setting_title">設定を開く</string>
+    <string name="video_edit_bottomsheet_menu_open_setting_description">好きなフォントを取り込むとか、ソースコードを見るとか。</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_title">タイムラインをリセットする</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_description">タイムラインにある素材を全て消します。</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_dialog_title">本当に破棄しますか？</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_dialog_message">タイムラインの素材を全て破棄して、まっさらな状態にします。本当に破棄しますか？</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_dialog_cancel">戻る</string>
+    <string name="video_edit_bottomsheet_menu_reset_timeline_dialog_ok">破棄する</string>
+    <string name="video_edit_bottomsheet_timeline_add_title">タイムラインへ追加</string>
+    <string name="video_edit_renderitem_text_title">文字</string>
+    <string name="video_edit_renderitem_text_description">文字を追加します。フォントを追加したい場合は、設定を開いてください。</string>
+    <string name="video_edit_renderitem_image_title">画像</string>
+    <string name="video_edit_renderitem_image_description">画像を追加します。</string>
+    <string name="video_edit_renderitem_video_title">動画</string>
+    <string name="video_edit_renderitem_video_description">動画を追加します。性能が許す限りタイムラインに追加できるはず？</string>
+    <string name="video_edit_renderitem_audio_title">音声</string>
+    <string name="video_edit_renderitem_audio_description">音声を追加します。</string>
+    <string name="video_edit_renderitem_shape_title">図形</string>
+    <string name="video_edit_renderitem_shape_description">図形を追加します。背景とかにどうぞ。</string>
+    <string name="video_edit_renderitem_akalink_title">あかりんく</string>
+    <string name="video_edit_renderitem_akalink_description">外部のアプリで素材を作成し、タイムラインに追加できる機能です。対応しているアプリが必要です。</string>
+    <string name="video_edit_bottomsheet_akalink_title">あかりんく</string>
+    <string name="video_edit_bottomsheet_akalink_description">@string/video_edit_renderitem_akalink_description</string>
+    <string name="video_edit_bottomsheet_akalink_start_button">対応アプリを開く</string>
+    <string name="video_edit_bottomsheet_audio_title">音声の編集</string>
+    <string name="video_edit_bottomsheet_audio_volume">音量</string>
+    <string name="video_edit_bottomsheet_encode_page_auto">おまかせ設定</string>
+    <string name="video_edit_bottomsheet_encode_page_manually">手動で設定</string>
+    <string name="video_edit_bottomsheet_encode_title">動画の保存（書き出し、エンコード）</string>
+    <string name="video_edit_bottomsheet_encode_long_time_message">保存にはしばらく時間がかかります。</string>
+    <string name="video_edit_bottomsheet_encode_start_encode">保存を開始</string>
+    <string name="video_edit_bottomsheet_encode_file_name">ファイル名</string>
+    <string name="video_edit_bottomsheet_encode_file_path_message">"保存先は以下になります。ギャラリーアプリで見れると思います。 "</string>
+    <string name="video_edit_bottomsheet_encode_basic_title">おまかせ設定</string>
+    <string name="video_edit_bottomsheet_encode_basic_description">おまかせ設定があります。松竹梅から選ぶことで、動画の画質等の設定が完了します。\n
+動画のフレームレート（fps）等を変更したい場合は、「手動で設定」を選ぶことで編集できます。\n
+動画コーデックを変更する必要がある（上級者向け）場合も同様です。対応していれば AV1 も使えます。</string>
+    <string name="video_edit_bottomsheet_encode_parameter_log_title">開発用</string>
+    <string name="video_edit_bottomsheet_encode_parameter_log_share">共有</string>
+    <string name="video_edit_bottomsheet_encode_container_format_title">コンテナフォーマット</string>
+    <string name="video_edit_bottomsheet_encode_container_format_description">ここで mp4 を選択しても、再生出来るかはプレイヤーが対応しているコーデック次第なので、注意してね。（無いと思うけど）</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_title">音声エンコーダーの設定</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_audio_codec">"音声コーデック "</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_audio_bitrate">音声ビットレート</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_title">"映像エンコーダーの設定 "</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_codec">映像コーデック</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_bitrate">映像ビットレート</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_framerate">フレームレート</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_keyframe_interval">キーフレーム間隔（秒）</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_height_width_title">動画の縦横サイズ</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_height_width_description">縦横の変更は、動画情報の編集から変更できます。</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_audio_saplingrate_title">音声のサンプリングレート</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_audio_saplingrate_description">サンプリングレートの変更はできません。</string>
+    <string name="video_edit_bottomsheet_encode_basic_low_title">"低画質 "</string>
+    <string name="video_edit_bottomsheet_encode_basic_medium_title">"中画質 "</string>
+    <string name="video_edit_bottomsheet_encode_basic_high_title">高画質</string>
+    <string name="video_edit_bottomsheet_encode_basic_low_description">ビットレート 3Mbps</string>
+    <string name="video_edit_bottomsheet_encode_basic_medium_description">ビットレート 6Mbps</string>
+    <string name="video_edit_bottomsheet_encode_basic_high_description">ビットレート 12Mbps</string>
+    <string name="video_edit_bottomsheet_encode_container_format_mp4_title">MP4</string>
+    <string name="video_edit_bottomsheet_encode_container_format_webm_title">WebM</string>
+    <string name="video_edit_bottomsheet_encode_container_format_mp4_description">AVC / HEVC / AV1 / AAC コーデックが格納できます。</string>
+    <string name="video_edit_bottomsheet_encode_container_format_webm_description">VP9 / Opus コーデックが格納できます。</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_aac_title">AAC</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_opus_title">Opus</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_aac_description">mp4 コンテナ用</string>
+    <string name="video_edit_bottomsheet_encode_audio_encoder_opus_description">WebM コンテナ用。ロイヤリティフリーなコーデックです。</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_avc_title">AVC (H.264)</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_hevc_title">HEVC (H.265)</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_vp9_title">VP9</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_av1_title">AV1</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_avc_description">再生できる端末が一番多いです。高画質にしたい場合はビットレートを結構上げないといけない。とりあえずこれにしておいけばいいはず。</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_hevc_description">AVC より効率が良いですが、ライセンス料の問題があります。10 ビット HDR の場合はこちらを選ぶことをおすすめします。</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_vp9_description">WebM コンテナ用。ロイヤリティーフリーなコーデックです。</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_video_av1_description">HEVC と同等の性能と言われており、かつロイヤリティフリーです。しかし、ほとんどの端末にハードウェアエンコーダーが搭載されていないため、エンコードに相当な時間がかかります。</string>
+    <string name="video_edit_bottomsheet_image_title">画像の編集</string>
+    <string name="video_edit_bottomsheet_shape_title">図形の編集</string>
+    <string name="video_edit_bottomsheet_shape_select">図形の種類</string>
+    <string name="video_edit_bottomsheet_shape_rect">四角形</string>
+    <string name="video_edit_bottomsheet_shape_circle">丸</string>
+    <string name="video_edit_bottomsheet_text_title">文字の編集</string>
+    <string name="video_edit_bottomsheet_text_input">文字</string>
+    <string name="video_edit_bottomsheet_text_font_size">文字サイズ</string>
+    <string name="video_edit_bottomsheet_text_change_font">フォントを変更する</string>
+    <string name="video_edit_bottomsheet_text_font_menu">フォント</string>
+    <string name="video_edit_bottomsheet_text_make_border_text">枠取り文字にする</string>
+    <string name="video_edit_bottomsheet_videoinfo_video_height">動画の高さ</string>
+    <string name="video_edit_bottomsheet_videoinfo_video_width">動画の幅</string>
+    <string name="video_edit_bottomsheet_videoinfo_video_duration">動画の時間</string>
+    <string name="video_edit_bottomsheet_videoinfo_title">動画情報の編集</string>
+    <string name="video_edit_bottomsheet_video_title">映像の編集</string>
+    <string name="video_edit_bottomsheet_video_file_name">ファイル名</string>
+    <string name="setting_about_skip">SKIP</string>
+    <string name="bottomsheet_header_delete">削除</string>
+    <string name="bottomsheet_header_done">完了</string>
+    <string name="dialog_colorpicker_page_list">色を選ぶ</string>
+    <string name="dialog_colorpicker_page_create">色を作る</string>
+    <string name="dialog_colorpicker_title">色の設定</string>
+    <string name="dialog_colorpicker_cancel">もどる</string>
+    <string name="dialog_colorpicker_confirm">確定</string>
+    <string name="dialog_colorpicker_create_red">赤</string>
+    <string name="dialog_colorpicker_create_green">緑</string>
+    <string name="dialog_colorpicker_create_blue">青</string>
+    <string name="dialog_colorpicker_create_color_code">カラーコード</string>
+    <string name="dialog_colorpicker_list_description">この色たちは、CSS named-color と同じです。</string>
+    <string name="input_duration_hour">時</string>
+    <string name="input_duration_minute">分</string>
+    <string name="input_duration_seconds">秒</string>
+    <string name="input_duration_milliseconds">ミリ秒</string>
+    <string name="component_encode_status_title">動画の保存中（書き出し中、エンコード中）です</string>
+    <string name="component_encode_status_description">保存中の間、アプリを離れてもバックグラウンドで処理されます。\n
+時間がかかるので時間つぶしてきてください。</string>
+    <string name="component_encode_status_encoded_time">エンコード済み時間</string>
+    <string name="component_encode_status_total_time">動画の時間</string>
+    <string name="component_encode_status_mixing">映像トラックと音声トラックを一つのコンテナに入れています。</string>
+    <string name="component_encode_status_move_file">ファイルを端末の動画フォルダへ移動しています。</string>
+    <string name="component_encode_status_cancel">キャンセルする</string>
+    <string name="edit_renderitem_color_title">色</string>
+    <string name="edit_renderitem_color_change_color">色を変更</string>
+    <string name="edit_renderitem_displaytime_title">表示開始時間</string>
+    <string name="edit_renderitem_displaytime_time">表示時間</string>
+    <string name="edit_renderitem_position_x">X 座標</string>
+    <string name="edit_renderitem_position_y">Y 座標</string>
+    <string name="edit_renderitem_size_width">幅</string>
+    <string name="edit_renderitem_size_height">高さ</string>
+    <string name="timeline_context_menu_edit">値の編集</string>
+    <string name="timeline_context_menu_cut">この位置で分割する</string>
+    <string name="timeline_context_menu_delete">削除</string>
+    <string name="video_preview_generating">生成中です...</string>
+    <string name="video_preview_enable_touch_edit">"タッチ編集が有効になりました "</string>
+    <string name="video_preview_disable_touch_edit">"タッチ編集が無効になりました "</string>
+    <string name="video_preview_dialog_title">"プレビュー機能について "</string>
+    <string name="video_preview_dialog_description">プレビューがとても遅いですが、保存には問題ありません。\n
+音声も雑音混じりの場合がありますが、こちらも保存には問題ありません。\n
+使いにくいと思います、すいません。</string>
+    <string name="video_preview_dialog_close">とじる</string>
+    <string name="service_encode_notification_channel_title">エンコードサービス実行中通知</string>
+    <string name="service_encode_notification_title">エンコードサービス実行中</string>
+    <string name="service_encode_notification_description">しばらくお待ちください</string>
+    <string name="service_encode_notification_cancel">エンコードをキャンセル</string>
+    <string name="dialog_chromakeycolor_title">クロマキー合成で透過する色を選ぶ</string>
+    <string name="video_edit_renderitem_chromakey_title">クロマキー合成を利用する</string>
+    <string name="video_edit_renderitem_chromakey_select_color">透明にする色を選ぶ</string>
+    <string name="dialog_chromakeycolor_description">画像を押すことで、透過させたい色を選ぶことができます。</string>
+    <string name="timeline_context_menu_duplicate">複製</string>
+    <string name="edit_renderitem_displaytime_playback_speed">再生速度</string>
+    <string name="video_edit_bottomsheet_shader_title">シェーダーの編集</string>
+    <string name="video_edit_bottomsheet_shader_fragment_shader">フラグメントシェーダー</string>
+    <string name="video_edit_bottomsheet_shader_sorry">編集しにくくてすいません。\n
+フラグメントシェーダーはメモ帳とかで下書きして、書き上げたらここに貼り付けるのが良いと思います。</string>
+    <string name="video_edit_bottomsheet_shader_description">OpenGL ES のバージョンは 2.0 です。\n
+フラグメントシェーダーでは、以下の uniform 変数が利用できます。\n
+・uniform sampler2D s_texture;\n
+この変数を使うのは必須です。\n
+動画のフレームを表すテクスチャです。texture2D() に入れて使ってください。\n
+・uniform vec2 v_resolution;\n
+この変数を使うのは必須です。\n
+これは画面の width / height を入れている vec2 です。vec2(width, height) です。\n
+座標の正規化に使ってください。\n
+・uniform float f_time;\n
+使うかは任意です。\n
+これは素材が再生開始して、終了するまでを0から1で変数に入れています。\n
+動画の時間ではないので注意です。</string>
+    <string name="video_edit_renderitem_shader_title">シェーダー (フラグメントシェーダー)</string>
+    <string name="video_edit_renderitem_shader_description">OpenGL ES (GPU)で動画のフレームにフラグメントシェーダーで色を付けられます。フラグメントシェーダーが書ける上級者向けの項目です。</string>
+    <string name="video_edit_bottomsheet_shader_name">名前</string>
+    <string name="video_edit_bottomsheet_switch_animation_title">切り替えアニメーションの編集</string>
+    <string name="video_edit_bottomsheet_switch_animation_type">切り替えアニメーションを選ぶ</string>
+    <string name="video_edit_renderitem_switch_animation_title">切り替えアニメーション</string>
+    <string name="video_edit_renderitem_switch_animation_description">フェードアウト、スライド等の切り替え効果を追加できます。</string>
+    <string name="video_edit_bottomsheet_switch_animation_type_fade_in_out">フェードアウト、フェードイン</string>
+    <string name="video_edit_bottomsheet_switch_animation_type_slide">スライド</string>
+    <string name="video_edit_bottomsheet_switch_animation_type_blur">ぼかし</string>
+    <string name="video_edit_bottomsheet_effect_type_mosaic">モザイク</string>
+    <string name="video_edit_bottomsheet_effect_type_monochrome">モノクロ</string>
+    <string name="video_edit_bottomsheet_effect_type_threshold">2値化</string>
+    <string name="video_edit_bottomsheet_effect_title">エフェクトの編集</string>
+    <string name="video_edit_bottomsheet_effect_type">エフェクトの選択</string>
+    <string name="video_edit_renderitem_effect_title">エフェクト</string>
+    <string name="video_edit_renderitem_effect_description">エフェクトを重ねることが出来ます。モザイクとか。</string>
+    <string name="video_edit_bottomsheet_effect_type_blur">ブラー</string>
+    <string name="video_edit_bottomsheet_shader_compile_check_ok">コンパイルに成功しました。利用できます。</string>
+    <string name="video_edit_bottomsheet_shader_compile_check_fail_syntax_error">コンパイルに失敗しました。文法間違いがないか探してみてください。</string>
+    <string name="video_edit_bottomsheet_shader_compile_check_fail">コンパイルに失敗しました。文法間違いがないか探してみてください。</string>
+    <string name="project_list">プロジェクト一覧</string>
+    <string name="project_list_create_project">新規作成</string>
+    <string name="project_list_import_project">取り込み</string>
+    <string name="project_list_bottomsheet_create_name">プロジェクト名</string>
+    <string name="project_list_bottomsheet_create_title">新規作成</string>
+    <string name="project_list_bottomsheet_create_button">作成</string>
+    <string name="project_list_bottomsheet_menu_title">プロジェクトのメニュー</string>
+    <string name="project_list_bottomsheet_menu_delete_title">削除</string>
+    <string name="project_list_bottomsheet_menu_delete_description">プロジェクトを削除します</string>
+    <string name="project_list_bottomsheet_menu_export_title">(実験的) ポータブルプロジェクト（仮）</string>
+    <string name="project_list_bottomsheet_menu_export_description">他の端末で動画編集の続きが出来るようになります。端末の中にある画像、動画データをコピーするため容量を消費します。</string>
+    <string name="project_list_dialog_delete_title">本当に削除しますか？</string>
+    <string name="project_list_dialog_delete_confirm">削除</string>
+    <string name="project_list_dialog_delete_cancel">キャンセル</string>
+    <string name="project_list_bottomsheet_menu_export_successful">完了しました。取り込みボタンより読み込みができます。</string>
+    <string name="project_list_bottomsheet_menu_import_successful">取り込みが完了しました。</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_title">10 ビット HDR 動画の動画編集機能</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_description">10 ビット HDR で撮影した動画の編集に対応しました。詳しくはこれを押してください。Android 13 以降で対応しているはず？</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_enable_title">10 ビット HDR 動画の動画編集を有効にする</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_enable_description">10 ビット HDR で撮影した動画の編集に対応しました。編集後も HDR 動画のままエンコード（書き出し）が可能です。\n
+簡単に言うと「眩しい動画」のあれです。\n
+\n
+HDR で撮影した動画を編集する場合は、この機能を有効にしエンコード（書き出し）することで元の眩しさ、鮮やかさを保つことが出来ます。\n
+\n
+この機能を無効にした場合、HDR 動画も SDR 動画に変換されます。\n
+その際、近い色に変換される機能（トーンマッピング）に対応していれば利用しますが、すべての端末が対応しているとは限りません。\n
+\n
+HDR 動画を扱う場合、できればこの機能を有効にし HDR 動画のまま扱うことをおすすめします。\n
+上記を承知の上で、どうしても SDR 動画として出力したい場合は無効にすることが出来ます。\n
+\n
+また、HDR 動画の編集時には以下に注意してください\n
+・HDR 動画に写真や、SDR 動画を表示させると色が変わってしまうため、あまりおすすめしません。\n
+・今のところ HDR 動画をエンコードする際のコーデックは HEVC / AV1 のみになります。\n</string>
+    <string name="video_edit_renderitem_warning_disable_ten_bit_hdr_edit_title">この動画は 10 ビット HDR 動画です。このプロジェクトでは 10 ビット HDR 動画編集が無効なため、色が白っぽくなります。10 ビット HDR 動画編集を有効にするには動画情報編集画面を開いてください。</string>
+    <string name="video_edit_renderitem_warning_disable_ten_bit_hdr_edit_button">動画情報編集画面を開く</string>
+    <string name="video_edit_bottomsheet_encode_basic_ten_bit_hdr_low_description">ビットレート 6Mbps</string>
+    <string name="video_edit_bottomsheet_encode_basic_ten_bit_hdr_medium_description">ビットレート 12Mbps</string>
+    <string name="video_edit_bottomsheet_encode_basic_ten_bit_hdr_high_description">ビットレート 24Mbps</string>
+    <string name="video_edit_bottomsheet_encode_video_encoder_ten_bit_hdr_message">10 ビット HDR 動画のエンコードをする場合、コーデックの選択肢は現状 HEVC / AV1 のみ対応になります。</string>
+    <string name="video_edit_bottomsheet_encode_hdr_to_sdr_message">この動画は、10 ビット HDR としてエンコードされます。\n
+もし HDR ではなく SDR としてエンコードしたい場合は、動画情報の編集から HDR の項目をオフにしてください。\n
+SDR に変換すると、より多くの端末で再生できますが、無理やり変換する都合上、色が少し変化してしまいます。</string>
+    <string name="edit_renderitem_rotation_title">回転</string>
+    <string name="edit_renderitem_rotation_degree">度</string>
+    <string name="project_list_dialog_export_title">プロジェクトをエクスポートしています</string>
+    <string name="project_list_dialog_export_description">他の端末で開けるように Zip ファイルに詰め込んでいます。しばらく時間がかかります。</string>
+    <string name="project_list_dialog_import_title">プロジェクトをインポートしています</string>
+    <string name="project_list_dialog_import_description">Zip ファイルにある素材を解凍して取り出しています。しばらく時間がかかります。</string>
+    <string name="video_edit_bottomsheet_switch_animation_type_fade_in_out_white">フェードアウト、フェードイン（白）</string>
+    <string name="timeline_header_default_button_text">タイムラインメニュー</string>
+    <string name="timeline_header_multi_select_multi_select_title">複数選択モード</string>
+    <string name="timeline_header_multi_select_multi_select_description">まとめて移動やコピーができます。</string>
+    <string name="video_edit_bottomsheet_timeline_menu_title">タイムラインメニュー</string>
+    <string name="video_edit_bottomsheet_timeline_menu_mode_default_title">標準モード</string>
+    <string name="video_edit_bottomsheet_timeline_menu_mode_default_description">タイムラインのアイテムを一つ一つ操作するモードです。</string>
+    <string name="video_edit_bottomsheet_timeline_menu_mode_multi_select_title">複数選択モード</string>
+    <string name="video_edit_bottomsheet_timeline_menu_mode_multi_select_description">複数のアイテムを選択して、まとめて移動やコピーが出来るモードです。</string>
+    <string name="video_edit_floating_multi_select_copy">コピー</string>
+    <string name="video_edit_floating_multi_delete">削除</string>
+    <string name="video_edit_renderitem_paste_title">貼り付け</string>
+    <string name="video_edit_renderitem_paste_description">タイムライン上のアイテムを押してコピーができます。</string>
+    <string name="timeline_context_menu_copy">コピー</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_menu_title">SDR/HDR 選択</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_menu_sdr">よくわからないという場合はこちらを選んでください。\nなぜなら、ほとんどの動画は SDR 形式であるからです。</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_menu_hdr_hlg">HDR で撮影した動画で、ガンマカーブが HLG の場合はこちらを選んでください。\n単に HLG と呼ばれていることもあります。</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_menu_hdr_pq">HDR で撮影した動画で、ガンマカーブが PQ (ST 2084) の場合はこちらを選んでください。\nHDR10 や HDR10+ と呼ばれていることもあります。</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_analyze_message">カメラの設定を忘れた場合や、そもそも分からない場合は、以下のボタンを押して編集したい動画を選んでください。解析します。</string>
+    <string name="video_edit_bottomsheet_videoinfo_ten_bit_hdr_analyze_complete">解析しました。</string>
+    <string name="video_edit_bottomsheet_menu_read_video_frame_title">画像として保存する</string>
+    <string name="video_edit_bottomsheet_menu_read_video_frame_description">今のプレビューを写真にして保存します。サムネイル画像を作るときなんかにどうぞ。\nSDR 動画はもちろん、HDR 動画の場合は眩しさを記録するため UltraHDR 画像として保存されます。</string>
+    <string name="video_edit_snackbar_save_frame_successful_title">画像として保存しました</string>
+    <string name="video_edit_snackbar_save_frame_successful_button">開く</string>
+    <string name="video_edit_preview_videotrack_error">プレビューの描画に失敗しました。シークバーを動かして違う時間を描画してみるか、アプリを開きなおしてください。または HDR 動画に対応していない場合があります。ごめんね。</string>
+    <string name="video_edit_bottomsheet_timeline_menu_mode_title">タイムラインのモード切り替え</string>
+    <string name="video_edit_bottomsheet_timeline_menu_setting_title">タイムラインの設定</string>
+    <string name="video_edit_bottomsheet_timeline_menu_setting_resize_title">タイムラインやプレビューのサイズ変更機能を有効にする</string>
+    <string name="video_edit_bottomsheet_timeline_menu_setting_resize_description">サイズ変更のためのバーを表示します。ドラッグ操作でサイズ変更ができます。</string>
+    <string name="project_list_tutorial">チュートリアルを見る</string>
+    <string name="project_list_bottomsheet_tutorial_title">チュートリアル リンク集</string>
+    <string name="project_list_bottomsheet_tutorial_landscape_to_portrait_blur_title">横の動画を縦にして両端をぼかす動画を作る</string>
+    <string name="project_list_bottomsheet_tutorial_landscape_to_portrait_blur_description">横の動画を盾にして、余った上下は動画を拡大してぼかしたものを表示します。</string>
+    <string name="project_list_bottomsheet_tutorial_chromakey_title">クロマキー合成を使う</string>
+    <string name="project_list_bottomsheet_tutorial_chromakey_description">特定の色を透過して、タイムラインで重なる動画を透過します。</string>
+    <string name="project_list_bottomsheet_tutorial_short_like_video_title">よくあるショート動画みたいなのを作る</string>
+    <string name="project_list_bottomsheet_tutorial_short_like_video_description">よく見るショート動画のようなものを作ります。動画と文字とナレーションと BGM がある簡単なものを作ります。</string>
+</resources>
