@@ -8,6 +8,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableLongStateOf
@@ -18,7 +19,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalLayoutDirection
 import androidx.compose.ui.unit.LayoutDirection
-import androidx.compose.ui.CompositionLocalProvider
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import io.github.takusan23.akaridroid.ui.screen.AkariDroidMainScreen
 import io.github.takusan23.akaridroid.ui.screen.SplashScreen
@@ -51,13 +51,11 @@ private fun AppRoot() {
     var backPressedAt by remember { mutableLongStateOf(0L) }
     val context = LocalContext.current
 
-    // اسپلش ۳ ثانیه‌ای
     LaunchedEffect(Unit) {
         delay(3000)
         showSplash = false
     }
 
-    // خروج با دو بار فشار دکمه بازگشت
     BackHandler(enabled = !showSplash) {
         val now = System.currentTimeMillis()
         if (now - backPressedAt < 2000) {

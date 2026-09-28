@@ -17,12 +17,12 @@ object PersianDate {
     fun gregorianToJalali(gy: Int, gm: Int, gd: Int): Triple<Int, Int, Int> {
         val gDM = intArrayOf(0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334)
         val gy2 = if (gm > 2) gy + 1 else gy
-        var days = 355666L + (365L * gy) + ((gy2 + 3) / 4) -
+        var days: Long = 355666L + (365L * gy) + ((gy2 + 3) / 4) -
                 ((gy2 + 99) / 100) + ((gy2 + 399) / 400) + gd + gDM[gm - 1]
 
-        var jy = -1595 + 33 * (days / 12053)
+        var jy: Int = (-1595 + 33 * (days / 12053)).toInt()
         days %= 12053
-        jy += 4 * (days / 1461)
+        jy += 4 * (days / 1461).toInt()
         days %= 1461
         if (days > 365) {
             jy += ((days - 1) / 365).toInt()
